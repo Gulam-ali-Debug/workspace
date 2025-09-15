@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/adwizee_icon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Golos+Text:wght@400..900&family=Kode+Mono:wght@400..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+    <title>main page or home page</title>
+    <style>
+body
+{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+.whatsapp_icon
+{
+    background-color: green;
+    color: rgb(255, 255, 255);
+    width: 3.2%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    bottom: 40px;
+    right: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 5;
+}
+#one
+{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+#hedrr
+{
+    font-family: "Golos Text", sans-serif;
+    width: 40.65%;
+    position: fixed;
+    height: 58px;
+    box-shadow: 0px 0px 10px 3px #faf0d7e0;
+    top: 20px;
+    background-color: #faf0d7;
+    border-radius: 10px;
+    left: 28.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+#adwizee_logo
+{
+    width: 16%;
+    height: 61%;
+    top: 10px;
+    position: absolute;
+    left: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3px;
+    align-content: center;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+#adwize_logo_emg
+{
+    width: 85%;
+    position: relative;
+    top: -2px;
+}
+#scyrf
+{
+    gap: 38px;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    cursor: pointer;
+    font-weight: 500;
+}
+#whatsapp_group
+{
+    position: absolute;
+    right: 30px;
+    padding: 7px 15px 7px 15px;
+    border-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    font-weight: 650;
+}
+#whatsapp_group:hover
+{
+    background-color:rgb(231, 231, 231);
+}
+#list_etm
+{
+    text-decoration: none;
+    color: black;
+}
+#list_etm:hover
+{
+    color: #d7d7d7;
+}
+#pge_1_about_us
+{
+    width: 100%;
+    height: 50em;
+    position: relative;
+    background-color: #fffbe0;
+    z-index: 1;
+}
+#which_1
+{
+    font-family: "Golos Text", sans-serif;
+    position: absolute;
+    font-weight: 600;
+    top: 0.8em;
+    font-size: 19px;
+    font-style: normal;
+    left: 22px;
+}
+#cont_one
+{
+    font-family: 'Inter', sans-serif;
+    width: 51%;
+    height: 50px;
+    font-size: 58px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+    top: 2.3em;
+    left: 7.2em;
+    font-weight: 450;
+    text-align: center;
+    line-height: 1.1;
+}
+#const_one_sp
+{
+    color: rgb(0, 0, 0);
+    font-family: "Instrument Serif",serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 85px;
+}
+#cont_two
+{
+    font-family: "Golos Text", sans-serif;
+    width: 38%;
+    height: 100px;
+    font-size: 14px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background: #833AB4;
+    background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    z-index: 2;
+    top: 24.25em;
+    left: 7.6em;
+    display: none;
+    line-height: 1;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+#cont_three
+{
+    font-family: "Golos Text", sans-serif;
+    width: 52%;
+    height: 100px;
+    font-size: 18px;
+    position: absolute;
+    color: rgb(0 0 0);
+    z-index: 2;
+    line-height: 1.9;
+    top: 21.5em;
+    font-weight: 500;
+    left: 22em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#client_avt
+{
+    position: absolute;
+    top: 34em;
+    width: 18%;
+    left: 40em;
+}
+
+#gt-strtd
+{
+    all: unset;
+    background-color: black;
+    font-family: "Golos Text", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 17px;
+    align-items: center;
+    font-size: 14px;
+    position: absolute;
+    top: 45em;
+    left: 43.5em;
+    font-weight: 500;
+    cursor: pointer;
+    width: 9%;
+    height: 48px;
+}
+.gt-strtd
+{
+    all: unset;
+}
+#gt-strtd:hover
+{
+    background-color: white;
+    color: black;
+    font-weight: 650;
+    outline: 2px solid black;
+    cursor: pointer;
+}
+#gt-strtt
+{
+
+    all: unset;
+    background-color: #ffffff00;
+    font-family: "Golos Text", sans-serif;
+    color: black;
+    outline: 2px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 17px;
+    align-items: center;
+    font-size: 14px;
+    position: absolute;
+    top: 45em;
+    left: 57.5em;
+    font-weight: 500;
+    cursor: pointer;
+    width: 9%;
+    height: 48px;
+}
+
+#about_us_pge
+{
+    outline: 1px solid black;
+    width: 100%;
+    height: 85em;
+    position: absolute;
+    top: 50em;
+    box-shadow: 0px 0px 20px 20px #faf0d7e0;
+    background-color: #fffbe0;
+    z-index: 1;
+}
+#crcl_1og
+{
+    width: 32.7%;
+    height: 517px;
+    outline: 1px solid black;
+    top: 287px;
+    left: 63em;
+    position: absolute;
+    background: linear-gradient(90deg,rgba(255, 197, 111, 0.46) 0%, rgba(90, 61, 255, 1) 100%);
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    filter: blur(35px);
+    z-index: -1;
+}
+#crcl_2og
+{
+    width: 44.7%;
+    height: 706px;
+    outline: 1px solid black;
+    top: 80px;
+    left: 43em;
+    position: absolute;
+    background: linear-gradient(90deg,rgba(255, 197, 111, 0.46) 0%, rgba(90, 61, 255, 1) 100%);
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    filter: blur(35px);
+    z-index: -2;
+}
+#crcl_3og
+{
+    width: 44.7%;
+    height: 706px;
+    outline: 1px solid black;
+    top: -22em;
+    left: -12em;
+    position: absolute;
+    background: linear-gradient(360deg,rgba(255, 197, 111, 0.46) 0%, rgba(255, 123, 202, 1) 100%);
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    filter: blur(35px);
+    z-index: -2;
+}
+#crcl_4og
+{
+    width: 32.7%;
+    height: 517px;
+    outline: 1px solid black;
+    top: -26em;
+    left: -1em;
+    position: absolute;
+    background: linear-gradient(0deg,rgba(255, 197, 111, 0.46) 0%, rgba(255, 123, 202, 1) 100%);
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    filter: blur(35px);
+    z-index: -1;
+}
+#aup_head
+{
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: 40px;
+    left: 58em;
+    font-weight: 600;
+    width: 4%;
+}
+#aup_wat
+{
+    font-size: 54px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 550;
+    position: absolute;
+    top: 1.7em;
+    left: 11.6em;
+    font-weight: 600;
+}
+
+#aup_wat_sp
+{
+    font-size: 59px;
+    font-family: "Instrument Serif",serif;
+    font-style: italic;
+}
+#aup_cont
+{
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: 9.7em;
+    width: 30%;
+    font-size: 19px;
+    left: 29.1em;
+    text-align: center;
+    line-height: 1.7;
+    font-weight: 550;
+}
+#aup_scroll
+{
+    outline: 1px solid black;
+    width: 90%;
+    height: 25em;
+    position: absolute;
+    left: 5.5%;
+    top: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    gap: 40px;
+}
+#aup_scr_dt1
+{
+    background-color: #ffe1ba;
+    width: 20%;
+    height: 90%;
+    border-radius: 20px;
+}
+#aup_scr_dt2
+{
+    background-color: #ffe1ba;
+    width: 20%;
+    height: 90%;
+    border-radius: 20px;
+    
+}
+#aup_scr_dt3
+{
+    background-color: #ffe1ba;
+    width: 20%;
+    height: 90%;
+    border-radius: 20px;
+}
+#aup_scr_dt4
+{
+    background-color: #ffe1ba;
+    width: 20%;
+    height: 90%;
+    border-radius: 20px;
+}
+#insn1
+{
+    background-color: #fffbe0;
+    border-radius: 20px;
+    width: 94%;
+    height: 80%;
+    position: relative;
+    top: 18%;
+    left: 3%;
+}
+#insn2
+{
+    background-color: #fffbe0;
+    border-radius: 20px;
+    width: 94%;
+    height: 80%;
+    position: relative;
+    top: 18%;
+    left: 3%;
+}
+#insn3
+{
+    background-color: #fffbe0;
+    border-radius: 20px;
+    width: 94%;
+    height: 80%;
+    position: relative;
+    top: 18%;
+    left: 3%;
+}
+#insn4
+{
+    background-color: #fffbe0;
+    border-radius: 20px;
+    width: 94%;
+    height: 80%;
+    position: relative;
+    top: 18%;
+    left: 3%;
+}
+#cnt_1
+{
+    position: relative;
+    top: 4%;
+    left: 4%;
+}
+#cnt_2
+{
+    position: relative;
+    top: 4%;
+    left: 4%;
+}
+#cnt_3
+{
+    position: relative;
+    top: 4%;
+    left: 4%;
+}
+#cnt_4
+{
+    position: relative;
+    top: 4%;
+    left: 4%;
+}
+#insn1_txt1
+{
+    width: 90%;
+    height: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 58%;
+    left: 5%;
+    font-weight: 550;
+}
+#insn1_txt2
+{
+    width: 79%;
+    height: 37px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13.23px;
+    position: relative;
+    top: 59%;
+    left: 5%;
+    color: #808080b8;
+}
+#insn2_txt1
+{
+    width: 90%;
+    height: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 58%;
+    left: 5%;
+    font-weight: 550;
+}
+#insn2_txt2
+{
+    width: 79%;
+    height: 37px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13.23px;
+    position: relative;
+    top: 59%;
+    left: 5%;
+    color: #808080b8;
+}
+#insn3_txt1
+{
+    width: 90%;
+    height: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 58%;
+    left: 5%;
+    font-weight: 550;
+}
+#insn3_txt2
+{
+    width: 79%;
+    height: 37px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13.23px;
+    position: relative;
+    top: 59%;
+    left: 5%;
+    color: #808080b8;
+}
+#insn4_txt1
+{
+    width: 90%;
+    height: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 58%;
+    left: 5%;
+    font-weight: 550;
+}
+#insn4_txt2
+{
+    width: 79%;
+    height: 37px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13.23px;
+    position: relative;
+    top: 59%;
+    left: 5%;
+    color: #808080b8;
+}
+#aup_txt1
+{
+    width: 75%;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    height: 15%;
+    font-size: 41.38px;
+    top: 59%;
+    left: 13%;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: center;
+}
+#aup_txt2
+{
+    width: 75%;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    height: 5%;
+    font-size: 43px;
+    top: 67.5%;
+    left: 12.5%;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+}
+#buk_cl_btn
+{
+    all: unset;
+    background-color: black;
+    font-family: "Golos Text", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 18px;
+    align-items: center;
+    font-size: 15px;
+    position: absolute;
+    top: 76%;
+    left: 44.5%;
+    font-weight: 500;
+    cursor: pointer;
+    width: 12%;
+    height: 49px;
+}
+#aup_crcl_1
+{
+    width: 64%;
+    height: 73%;
+    outline: 1px solid black;
+    top: 39%;
+    left: 49%;
+    position: relative;
+    background: linear-gradient(56.64deg,rgba(255, 197, 111, 0.46) 0%, rgba(255, 123, 202, 1) 100%);
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    /* filter: blur(35px); */
+    z-index: -2;
+}
+#aup_crcl_2
+{
+    width: 64%;
+    height: 73%;
+    outline: 1px solid black;
+    top: 74%;
+    left: -13%;
+    position: absolute;
+    background: linear-gradient(270deg,rgba(255, 197, 111, 0.46) 0%, rgba(255, 123, 202, 1) 100%);
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    /* filter: blur(35px); */
+    z-index: -2;
+}
+#aup_crcl_3
+{
+    width: 44.7%;
+    height: 706px;
+    outline: 1px solid black;
+    top: 85%;
+    left: -28%;
+    position: absolute;
+    background: linear-gradient(360deg,rgba(255, 197, 111, 0.46) 0%, rgba(255, 123, 202, 1) 100%);
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    /* filter: blur(35px); */
+    z-index: -2;
+}
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com/?zx=1757179520925&no_sw_cr=1" target="_blank"><div class="whatsapp_icon"><i class="fa fa-whatsapp" id="one" aria-hidden="true"></i></div></a>
+    <div id="hedrr">
+        <div id="adwizee_logo"><img src="images/header_logo.png" id="adwize_logo_emg" alt="brand logo"></div>
+        <div id="scyrf">
+            <div id="list_etm">Home</div>
+            <div id="list_etm">About Us</div>
+            <div id="list_etm">Services</div>
+           <a href="http://localhost/adwizee/send_message.php" id="list_etm"><div>Contact</div></a>
+        </div>
+       <a href="https://www.google.com/?zx=1757179520925&no_sw_cr=1" target="_blank" id="whatsapp_group"><div>Chat Now</div></a> 
+    </div>
+    <div id="pge_1_about_us">
+        <div id="which_1">#Home</div>
+        
+        
+
+        <div id="crcl_1og"></div>
+        <div id="crcl_2og"></div>
+        <div id="crcl_3og"></div>
+        <div id="crcl_4og"></div>
+
+    
+
+    <div id="cont_one">Digital Marketing Agency <span id="const_one_sp">Adwizee</span> – Smart Strategies, Real Growth</div>
+    <div id="cont_two">Best Digital Marketing Company, Online Marketing Services, SEO and Social Media Marketing, PPC & Lead Generation</div>
+    <div id="cont_three">Let’s be real: you want results, not more digital noise. Adwizee’s the crew that gets your brand seen *and* paid. SEO wizardry, social media that slaps, PPC with ROI, web design that doesn’t scream “template,” 
+        and content that’s actually worth reading. Ready to grow up (online, at least)?</div>
+
+    <img src="images/Clients Avatar.svg" id="client_avt" alt="">
+
+       <a href="http://localhost/adwizee/send_message.php" id="gt-strtd"><button class="gt-strtd">Get in Touch</button></a>
+       <a href="" id="gt-strtt"><button class="gt-strtd">See our work</button></a>
+       
+
+    </div>
+
+    <div id="about_us_pge">
+        <div id="aup_head">About Us</div>
+        <div id="aup_wat">What we <span id="aup_wat_sp">do!</span></div>
+        <div id="aup_cont">Meet Adwizee: the digital marketing rebels who turn clicks into clients and brands into legends.</div>
+        <div id="aup_scroll">
+            <div id="aup_scr_dt1">
+                <div id="insn1">
+                    <img src="images/Count1.svg" alt="" id="cnt_1">
+                    <div id="insn1_txt1">Social Media Strategy</div>
+                    <div id="insn1_txt2">Build a community that loves your brand.</div>
+                </div>
+                
+            </div>
+            <div id="aup_scr_dt2">
+                <div id="insn2">
+                    <img src="images/Count2.svg" alt="" id="cnt_2">
+                    <div id="insn2_txt1">SEO & Content Marketing</div>
+                    <div id="insn2_txt2">Rank higher. Get found. Stay relevant.</div>
+                </div>
+                
+            </div>
+            <div id="aup_scr_dt3">
+                <div id="insn3">
+                    <img src="images/Count3.svg" alt="" id="cnt_3">
+                    <div id="insn3_txt1">Performance Marketing</div>
+                    <div id="insn3_txt2">Data-driven paid ads that actually convert.</div>
+                </div>
+                
+            </div>
+            <div id="aup_scr_dt4">
+                <div id="insn4">
+                    <img src="images/Count4.svg" alt="" id="cnt_4">
+                    <div id="insn4_txt1">Website Development</div>
+                    <div id="insn4_txt2">Turn marketing clicks into customers and revenue.</div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div id="aup_crcl_1"></div>
+        <div id="aup_crcl_2"></div>
+        <div id="aup_crcl_3"></div>
+        <div id="aup_crcl_4"></div>
+
+        <div id="aup_txt1">We’re data nerds, creative geeks, and growth junkies. SEO that climbs, SMM that charms, PPC that actually pays.</div>
+        <div id="aup_txt2">Let’s make your business the next big thing.</div>
+
+        <button id="buk_cl_btn">Book a 20 min call</button>
+
+    </div>
+
+</body>
+</html>
